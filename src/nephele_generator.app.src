@@ -1,0 +1,21 @@
+{application, nephele_generator,
+ [{description, "Generate Erlang modules from AWS API descriptions"},
+  {vsn, "0.0.1"},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib,
+    bbmustache,
+    jsone,
+    jsn
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {maintainers, ["Mark Allen"]},
+  {licenses, ["Apache 2.0"]},
+  {links, [{"Github", "https://github.com/mrallen1/nephele_generator"},
+           {"Github", "https://github.com/mrallen1/nephele"}
+          ]
+  }
+ ]}.
